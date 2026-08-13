@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.title {
+    background: #e8b21a;
+    padding: 18px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.title h1 {
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+
+.title p {
+    font-size: 13px;
+    color: white;
+}
+
+.info2 {
+    display: flex;
+    gap: 18px;
+    padding: 0 20px 30px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.marginL {
+    flex: 2.3;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rightL {
+    flex: 1;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.rightL h2 {
+    font-size: 19px;
+    margin-bottom: 16px;
+}
+
+.C1,
+.C2,
+.info3,
+.info4 {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.row1 {
+    display: flex;
+    gap: 12px;
+}
+
+.C1,
+.C2 {
+    flex: 1;
+}
+
+.row1 h4 {
+    font-size: 11px;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ddd;
+}
+
+.row1 p {
+    font-size: 21px;
+    font-weight: bold;
+    color: #222;
+}
+
+.chartTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+.btn {
+    padding: 5px 11px;
+    background: transparent;
+    border: none;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.btn.active {
+    background: white;
+    border: 1px solid #bbb;
+}
+
+.chartBox {
+    height: 280px;
+    position: relative;
+}
+
+.info4 h3 {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.scroll {
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th {
+    padding: 8px;
+    text-align: left;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background: #fafafa;
+}
+
+tbody tr:hover {
+    background: #f0f0f0;
+}
+
+.liveBox {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 14px;
+    margin-bottom: 18px;
+}
+
+.liveTitle {
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.priceRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+    font-size: 13px;
+}
+
+.priceRow:last-child {
+    margin-bottom: 0;
+}
+
+.input1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 13px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.input1 label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
+}
+
+.input1 select,
+.input1 input {
+    width: 55%;
+    padding: 7px;
+    border: 1px solid #bbb;
+    background: #fafafa;
+    font-size: 13px;
+}
+
+.input1 select:focus,
+.input1 input:focus {
+    outline: none;
+    border-color: #d5a817;
+    background: white;
+}
+
+.total {
+    margin-top: 20px;
+    padding: 13px;
+    background: #eee;
+    border: 1px solid #ccc;
+    text-align: right;
+}
+
+.total div {
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.total p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.signal-badge {
+    display: inline-block;
+    padding: 3px 7px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.signal-badge.buy {
+    background: #d7ead9;
+    color: #286238;
+}
+
+.signal-badge.sell {
+    background: #f1d1d1;
+    color: #8b2929;
+}
+
+.signal-badge.hold {
+    background: #f3e4b5;
+    color: #765c14;
+}}

@@ -1,0 +1,8 @@
+{
+  "name": "desktop_ui",
+  "version": "1.0.0",
+  "main": "launch.js",
+  "scripts": {
+    "start": "electron ."
+  }
+}
